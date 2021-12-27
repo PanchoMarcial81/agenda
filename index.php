@@ -97,6 +97,8 @@
                       <td>
                         <a href="#edit_<?php echo $row['idPersona']; ?>" class="btn btn-success btn-sm" data-toggle="modal"><span class="fa fa-edit"></span></a>
                         <a href="#delete_<?php echo $row['idPersona']; ?>" class="btn btn-danger btn-sm" data-toggle="modal"><span class="fa fa-trash"></span></a>
+                      </td>
+                      <?php include('EditarEliminarModal.php'); ?>
                     </tr>
                     <?php
                   }
